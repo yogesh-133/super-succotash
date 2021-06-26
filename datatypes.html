@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>datatypes</title>
+</head>
+<body>
+    <script>
+         //Datatypes -Primitive --> Number,String,Boolean,undefined
+       //Non-Primitive --> Arrays ,Objects
+
+       let salary=100 + '800'
+       var city = 'aurangabad'
+       let payment=200
+       console.log( (salary+payment))
+       let myinfo = 'my salary is' + ' '+4000
+       console.log(myinfo)
+
+       //template literals -back tik
+       let greeting = `my city name is  ${city}`
+       console.log(greeting)
+
+        //boolean -true/false
+        let age =18
+        let votingage= 18
+        let Result=''
+        if(votingage>age){
+            Result='Eligible'
+        }else{
+            Result='Not Eligible'
+        }
+        console.log(Result)
+
+        let myName
+       console.log(typeof myName)
+        //null  -- nothing
+       let sal = null
+    //    sal =600
+       console.log(sal)
+
+       let months=['jan','feb','march','april','may']
+       console.log(months[0])
+       console.log(months.indexOf('march'))
+
+       let person={
+           name:'yogesh',
+           city:'pune'
+       }
+       console.log(person.name)
+       
+    </script>
+    
+</body>
+</html>
